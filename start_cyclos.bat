@@ -1,0 +1,1 @@
+start java -Xmx512M -XX:MaxPermSize=128m -jar cyclos-server.jar %1 %2 %3 %4 %5

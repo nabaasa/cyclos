@@ -1,0 +1,509 @@
+10/10/2014 19:49:42	127.0.0.1					payment.doPayment
+org.apache.cxf.binding.soap.SoapFault: Server error: unauthorized-access
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:202)
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:95)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:112)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:59)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 20:17:50	127.0.0.1					payment.doPayment
+org.apache.cxf.binding.soap.SoapFault: Server error: unauthorized-access
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:202)
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:95)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:112)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:59)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 20:30:52	127.0.0.1					payment.doPayment
+org.apache.cxf.binding.soap.SoapFault: Server error: unauthorized-access
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:202)
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:95)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:112)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:59)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:304)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 20:34:15	127.0.0.1					payment.doPayment
+org.apache.cxf.binding.soap.SoapFault: Server error: unauthorized-access
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:202)
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:95)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:112)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:59)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:304)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 21:57:37	127.0.0.1					payment.doPayment
+org.apache.cxf.binding.soap.SoapFault: Server error: unauthorized-access
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:202)
+	at nl.strohalm.cyclos.webservices.utils.WebServiceHelper.fault(WebServiceHelper.java:95)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:112)
+	at nl.strohalm.cyclos.webservices.interceptor.AuthInterceptor.handleMessage(AuthInterceptor.java:59)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 22:08:25	127.0.0.1	rest	CLIENT<test>		Payment error status: INVALID_CHANNEL	payment.doPayment
+10/10/2014 22:09:44	127.0.0.1	rest	CLIENT<test>		Payment error status: INVALID_CHANNEL	payment.doPayment
+10/10/2014 22:10:55	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+nl.strohalm.cyclos.services.transactions.exceptions.MaxAmountPerDayExceededException
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.validateMaxAmountAtDate(PaymentServiceImpl.java:1289)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.performInsert(PaymentServiceImpl.java:2221)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.performInsert(PaymentServiceImpl.java:2344)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.access$1000(PaymentServiceImpl.java:187)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl$5.doInTransaction(PaymentServiceImpl.java:1363)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl$5.doInTransaction(PaymentServiceImpl.java:1355)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.maybeRunInNewTransaction(TransactionHelperImpl.java:183)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.maybeRunInNewTransaction(TransactionHelperImpl.java:175)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doInsert(PaymentServiceImpl.java:1355)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doPayment(PaymentServiceImpl.java:1380)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doPayment(PaymentServiceImpl.java:772)
+	at nl.strohalm.cyclos.webservices.payments.PaymentWebServiceImpl.doPayment(PaymentWebServiceImpl.java:396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:304)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 22:10:55	127.0.0.1	rest	CLIENT<test>		Payment error status: MAX_DAILY_AMOUNT_EXCEEDED	payment.doPayment
+10/10/2014 22:29:19	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+nl.strohalm.cyclos.services.transactions.exceptions.NotEnoughCreditsException
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.validateAmount(PaymentServiceImpl.java:2399)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.insertTransferAndPayFees(PaymentServiceImpl.java:1941)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.performInsert(PaymentServiceImpl.java:2225)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.performInsert(PaymentServiceImpl.java:2344)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.access$1000(PaymentServiceImpl.java:187)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl$5.doInTransaction(PaymentServiceImpl.java:1363)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl$5.doInTransaction(PaymentServiceImpl.java:1355)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.maybeRunInNewTransaction(TransactionHelperImpl.java:183)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.maybeRunInNewTransaction(TransactionHelperImpl.java:175)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doInsert(PaymentServiceImpl.java:1355)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doPayment(PaymentServiceImpl.java:1380)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doPayment(PaymentServiceImpl.java:772)
+	at nl.strohalm.cyclos.webservices.payments.PaymentWebServiceImpl.doPayment(PaymentWebServiceImpl.java:396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:304)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 22:29:19	127.0.0.1	rest	CLIENT<test>		Payment error status: NOT_ENOUGH_CREDITS	payment.doPayment
+10/10/2014 22:40:59	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+10/10/2014 23:05:24	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+10/10/2014 23:21:16	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+10/10/2014 23:28:40	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+10/10/2014 23:38:58	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+10/10/2014 23:40:21	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 00:09:41	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 00:11:19	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 00:13:22	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 00:13:49	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 01:31:09	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:09:21	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:12:50	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:14:49						
+org.apache.cxf.interceptor.Fault
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:823)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:644)
+	at org.apache.cxf.jaxb.io.DataReaderImpl.read(DataReaderImpl.java:157)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:108)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:122)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:211)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:213)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:193)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:129)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:187)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.doRunInTransaction(BaseWebServiceTransactionFilter.java:159)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.access$100(BaseWebServiceTransactionFilter.java:46)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter$1.doInTransactionWithoutResult(BaseWebServiceTransactionFilter.java:74)
+	at org.springframework.transaction.support.TransactionCallbackWithoutResult.doInTransaction(TransactionCallbackWithoutResult.java:33)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:242)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl$1.doInTransaction(TransactionHelperImpl.java:236)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThreadWithResult(TransactionHelperImpl.java:236)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.runInCurrentThread(TransactionHelperImpl.java:197)
+	at nl.strohalm.cyclos.http.BaseWebServiceTransactionFilter.execute(BaseWebServiceTransactionFilter.java:65)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: javax.xml.bind.UnmarshalException
+ - with linked exception:
+[com.sun.istack.internal.SAXParseException2; lineNumber: 1; columnNumber: 406]
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.handleStreamException(UnmarshallerImpl.java:420)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:357)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:334)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.doUnmarshal(JAXBEncoderDecoder.java:784)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.access$100(JAXBEncoderDecoder.java:97)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder$1.run(JAXBEncoderDecoder.java:812)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:810)
+	... 41 more
+Caused by: com.sun.istack.internal.SAXParseException2; lineNumber: 1; columnNumber: 406
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:647)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:676)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:672)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.handleParseConversionException(Loader.java:256)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:54)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:499)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.InterningXmlVisitor.text(InterningXmlVisitor.java:78)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.StAXStreamConnector.processText(StAXStreamConnector.java:323)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.StAXStreamConnector.handleEndElement(StAXStreamConnector.java:201)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.StAXStreamConnector.bridge(StAXStreamConnector.java:170)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:355)
+	... 47 more
+Caused by: javax.xml.bind.UnmarshalException
+ - with linked exception:
+[java.lang.NumberFormatException]
+	... 58 more
+Caused by: java.lang.NumberFormatException
+	at java.math.BigDecimal.<init>(BigDecimal.java:470)
+	at java.math.BigDecimal.<init>(BigDecimal.java:739)
+	at com.sun.xml.internal.bind.DatatypeConverterImpl._parseDecimal(DatatypeConverterImpl.java:132)
+	at com.sun.xml.internal.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$22.parse(RuntimeBuiltinLeafInfoImpl.java:778)
+	at com.sun.xml.internal.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$22.parse(RuntimeBuiltinLeafInfoImpl.java:776)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	... 53 more
+
+11/10/2014 02:16:18	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:21:01	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:22:54	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:24:01	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:25:10	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:26:56	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:35:55	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:37:00	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:37:47	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:38:50	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:39:32	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:42:34	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:55:39	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:57:29	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:58:18	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:59:07	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 02:59:38	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 03:01:34	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 03:06:12	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 03:07:18	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 07:23:47	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 07:59:10	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 08:04:18	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 08:09:28	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 08:51:52	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 08:58:43	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:00:31	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:06:33	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:07:32	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:08:54	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:10:27	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:12:18	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:25:13	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 09:26:31	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 10:28:16	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 13:02:11	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 15:47:15	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 15:51:00	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 16:24:40	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 16:39:35	127.0.0.1	rest	CLIENT<test>		Payment error status: FROM_NOT_FOUND	payment.doPayment
+11/10/2014 19:54:31	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 22:34:37	127.0.0.1	rest	CLIENT<test>		Payment error status: INVALID_CHANNEL	payment.doPayment
+11/10/2014 22:38:51	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 22:48:00	127.0.0.1	rest	CLIENT<test>		Payment error status: INVALID_CHANNEL	payment.doPayment
+11/10/2014 22:49:40	127.0.0.1	rest	CLIENT<test>		Payment error status: INVALID_CHANNEL	payment.doPayment
+11/10/2014 22:50:05	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 22:52:24	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+11/10/2014 22:55:28	127.0.0.1	rest	CLIENT<test>			payment.doPayment
+12/10/2014 01:42:39	127.0.0.1	rest	CLIENT<test>			payment.doPayment

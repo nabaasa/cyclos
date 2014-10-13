@@ -1,0 +1,243 @@
+10/10/2014 19:37:42	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	LOGIN 	
+10/10/2014 19:37:42	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	GET   	/do/admin/home
+10/10/2014 19:37:56	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	GET   	/do/admin/searchMembers
+10/10/2014 19:38:05	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	GET   	/do/admin/home
+10/10/2014 19:38:08	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	GET   	/do/admin/profile
+10/10/2014 19:38:14	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	GET   	/do/admin/changeMemberGroup
+10/10/2014 19:38:25	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	POST  	/do/admin/changeMemberGroup
+10/10/2014 19:38:25	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	GET   	/do/admin/changeMemberGroup
+10/10/2014 19:38:36	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	GET   	/do/admin/home
+10/10/2014 19:38:46	127.0.0.1	45C5963C08695298CB31A0A668ECAA06	admin	LOGOUT	
+10/10/2014 19:41:53	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	LOGIN 	
+10/10/2014 19:41:53	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/home
+10/10/2014 19:42:03	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/profile
+10/10/2014 19:42:10	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/changeMemberGroup
+10/10/2014 19:42:28	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	POST  	/do/admin/changeMemberGroup
+10/10/2014 19:42:28	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/changeMemberGroup
+10/10/2014 19:42:32	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/profile
+10/10/2014 19:42:39	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/home
+10/10/2014 19:42:46	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/profile
+10/10/2014 19:42:49	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/changeMemberGroup
+10/10/2014 19:43:05	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	POST  	/do/admin/changeMemberGroup
+10/10/2014 19:43:05	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/changeMemberGroup
+10/10/2014 19:46:06	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	GET   	/do/admin/home
+10/10/2014 19:50:35	127.0.0.1	D305988D3E0A02D511F3A69DDB9415B3	admin	LOGOUT	
+10/10/2014 19:50:55	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	LOGIN 	
+10/10/2014 19:50:55	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/home
+10/10/2014 19:51:03	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/listAccountTypes
+10/10/2014 19:51:39	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/listAccountTypes
+10/10/2014 19:51:45	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/accountOverview
+10/10/2014 19:51:51	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/accountHistory
+10/10/2014 19:52:01	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/accountOverview
+10/10/2014 19:52:07	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/selfPayment
+10/10/2014 19:53:55	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	POST  	/do/admin/selfPayment
+10/10/2014 19:53:55	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/confirmPayment
+10/10/2014 19:54:01	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/payment
+10/10/2014 19:54:08	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/payment
+10/10/2014 19:55:12	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	POST  	/do/admin/payment
+10/10/2014 19:55:12	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/confirmPayment
+10/10/2014 19:57:31	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/
+10/10/2014 19:57:31	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	GET   	/do/admin/home
+10/10/2014 20:25:41	127.0.0.1	133704E4DC45691E51BE48BB32646184	admin	LOGOUT	
+10/10/2014 20:25:52	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	LOGIN 	
+10/10/2014 20:25:52	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/home
+10/10/2014 20:26:02	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/searchServiceClients
+10/10/2014 20:26:08	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editServiceClient
+10/10/2014 20:26:25	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/listChannels
+10/10/2014 20:26:34	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editChannel
+10/10/2014 20:26:49	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editAccessSettings
+10/10/2014 20:27:04	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editLocalSettings
+10/10/2014 20:27:22	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/searchServiceClients
+10/10/2014 20:27:25	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editServiceClient
+10/10/2014 20:30:15	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	POST  	/do/admin/editServiceClient
+10/10/2014 20:30:15	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editServiceClient
+10/10/2014 20:33:02	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editAccessSettings
+10/10/2014 20:33:09	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/searchServiceClients
+10/10/2014 20:33:16	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editServiceClient
+10/10/2014 20:33:37	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	POST  	/do/admin/editServiceClient
+10/10/2014 20:33:37	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	GET   	/do/admin/editServiceClient
+10/10/2014 20:49:46	127.0.0.1	BB34ECCE144CD8C7D26DA8F095A259E9	admin	LOGOUT	
+10/10/2014 22:00:43	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	LOGIN 	
+10/10/2014 22:00:44	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listGroups
+10/10/2014 22:00:46	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listGroups
+10/10/2014 22:00:52	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:00:54	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:01:08	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listGroups
+10/10/2014 22:01:12	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:01:14	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:01:15	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:01:21	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listGroups
+10/10/2014 22:01:25	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editGroup
+10/10/2014 22:01:47	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editGroupPermissions
+10/10/2014 22:02:36	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listGroups
+10/10/2014 22:02:49	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/adminTasks
+10/10/2014 22:03:01	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchServiceClients
+10/10/2014 22:03:03	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editServiceClient
+10/10/2014 22:06:11	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/editServiceClient
+10/10/2014 22:06:11	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editServiceClient
+10/10/2014 22:06:16	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listChannels
+10/10/2014 22:06:19	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editChannel
+10/10/2014 22:06:35	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/editChannel
+10/10/2014 22:06:35	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editChannel
+10/10/2014 22:06:40	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listGroups
+10/10/2014 22:06:49	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editGroupPermissions
+10/10/2014 22:07:03	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editGroup
+10/10/2014 22:10:13	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:10:15	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:10:19	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:10:25	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/manageExternalAccess
+10/10/2014 22:10:32	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/selectChannels
+10/10/2014 22:10:32	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/manageExternalAccess
+10/10/2014 22:13:44	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchServiceClients
+10/10/2014 22:13:47	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editServiceClient
+10/10/2014 22:17:23	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/editServiceClient
+10/10/2014 22:17:23	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editServiceClient
+10/10/2014 22:21:04	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/editServiceClient
+10/10/2014 22:21:04	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editServiceClient
+10/10/2014 22:21:14	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listGroups
+10/10/2014 22:21:18	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editGroup
+10/10/2014 22:21:34	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listAccountTypes
+10/10/2014 22:21:43	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editAccountType
+10/10/2014 22:22:02	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listCurrencies
+10/10/2014 22:22:04	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/manageCurrency
+10/10/2014 22:22:48	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/editCurrency
+10/10/2014 22:22:48	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/manageCurrency
+10/10/2014 22:22:59	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:23:01	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:23:02	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:23:07	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountOverview
+10/10/2014 22:23:07	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountHistory
+10/10/2014 22:23:14	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:24:16	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:24:18	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:24:25	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountOverview
+10/10/2014 22:24:25	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountHistory
+10/10/2014 22:24:59	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listAccountTypes
+10/10/2014 22:25:01	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editAccountType
+10/10/2014 22:25:43	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editTransferType
+10/10/2014 22:28:02	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/editTransferType
+10/10/2014 22:28:02	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editTransferType
+10/10/2014 22:28:32	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listAccountTypes
+10/10/2014 22:28:36	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editAccountType
+10/10/2014 22:29:39	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listCurrencies
+10/10/2014 22:29:45	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:29:48	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:29:50	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:30:03	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountOverview
+10/10/2014 22:30:04	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountHistory
+10/10/2014 22:30:12	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/accountHistory
+10/10/2014 22:30:15	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:30:24	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/accountHistory
+10/10/2014 22:30:26	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:30:28	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:30:30	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:30:34	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountOverview
+10/10/2014 22:30:34	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountHistory
+10/10/2014 22:30:45	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:31:03	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:31:04	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:32:13	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/listAccountTypes
+10/10/2014 22:32:17	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/editAccountType
+10/10/2014 22:32:21	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountOverview
+10/10/2014 22:32:26	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountHistory
+10/10/2014 22:32:35	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/home
+10/10/2014 22:32:41	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:32:51	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/selfPayment
+10/10/2014 22:33:00	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/payment
+10/10/2014 22:33:41	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/payment
+10/10/2014 22:33:41	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/confirmPayment
+10/10/2014 22:33:49	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/confirmPayment
+nl.strohalm.cyclos.services.transactions.exceptions.NotEnoughCreditsException
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.validateAmount(PaymentServiceImpl.java:2399)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.insertTransferAndPayFees(PaymentServiceImpl.java:1941)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.performInsert(PaymentServiceImpl.java:2225)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.performInsert(PaymentServiceImpl.java:2344)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.access$1000(PaymentServiceImpl.java:187)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl$5.doInTransaction(PaymentServiceImpl.java:1363)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl$5.doInTransaction(PaymentServiceImpl.java:1355)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.maybeRunInNewTransaction(TransactionHelperImpl.java:183)
+	at nl.strohalm.cyclos.utils.TransactionHelperImpl.maybeRunInNewTransaction(TransactionHelperImpl.java:175)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doInsert(PaymentServiceImpl.java:1355)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doPayment(PaymentServiceImpl.java:1380)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceImpl.doPayment(PaymentServiceImpl.java:772)
+	at nl.strohalm.cyclos.services.transactions.PaymentServiceSecurity.doPayment(PaymentServiceSecurity.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at nl.strohalm.cyclos.spring.ServiceSecurityProxyInvocationHandler.invoke(ServiceSecurityProxyInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy72.doPayment(Unknown Source)
+	at nl.strohalm.cyclos.controls.payments.ConfirmPaymentAction.handleSubmit(ConfirmPaymentAction.java:117)
+	at nl.strohalm.cyclos.controls.BaseFormAction.executeAction(BaseFormAction.java:52)
+	at nl.strohalm.cyclos.controls.BaseAction.execute(BaseAction.java:192)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:425)
+	at nl.strohalm.cyclos.struts.CyclosRequestProcessor.doExecuteAction(CyclosRequestProcessor.java:459)
+	at nl.strohalm.cyclos.struts.CyclosRequestProcessor.executeAction(CyclosRequestProcessor.java:496)
+	at nl.strohalm.cyclos.struts.CyclosRequestProcessor.processActionPerform(CyclosRequestProcessor.java:256)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:228)
+	at nl.strohalm.cyclos.struts.CyclosRequestProcessor.process(CyclosRequestProcessor.java:144)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:462)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.LoggedUserFilter.execute(LoggedUserFilter.java:117)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.RequestProcessingFilter.execute(RequestProcessingFilter.java:74)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at nl.strohalm.cyclos.http.SanitizerFilter.execute(SanitizerFilter.java:66)
+	at nl.strohalm.cyclos.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:304)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+10/10/2014 22:33:49	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/error
+10/10/2014 22:34:01	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/selfPayment
+10/10/2014 22:35:13	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/selfPayment
+10/10/2014 22:35:13	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/confirmPayment
+10/10/2014 22:35:15	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/confirmPayment
+10/10/2014 22:35:15	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/successfulPayment
+10/10/2014 22:35:22	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/printTransaction
+10/10/2014 22:37:36	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/payment
+10/10/2014 22:38:36	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/payment
+10/10/2014 22:38:36	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/confirmPayment
+10/10/2014 22:38:37	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/confirmPayment
+10/10/2014 22:38:37	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/successfulPayment
+10/10/2014 22:44:11	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/searchMembers
+10/10/2014 22:44:13	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	POST  	/do/admin/searchMembers
+10/10/2014 22:44:16	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/profile
+10/10/2014 22:44:44	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountOverview
+10/10/2014 22:44:44	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	GET   	/do/admin/accountHistory
+10/10/2014 23:00:01	127.0.0.1	004B1A9DEB6D769FB5E878D85290E152	admin	LOGOUT	
+11/10/2014 00:49:54	127.0.0.1	2C59DF7A886E4740B91F54974901A731	admin	LOGIN 	
+11/10/2014 00:49:54	127.0.0.1	2C59DF7A886E4740B91F54974901A731	admin	GET   	/do/admin/accountHistory
+11/10/2014 01:05:01	127.0.0.1	2C59DF7A886E4740B91F54974901A731	admin	LOGOUT	
+11/10/2014 07:25:21	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	LOGIN 	
+11/10/2014 07:25:21	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/home
+11/10/2014 07:25:26	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/profile
+11/10/2014 07:25:30	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/accountOverview
+11/10/2014 07:25:30	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/accountHistory
+11/10/2014 07:25:38	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	POST  	/do/admin/accountHistory
+11/10/2014 07:25:39	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	POST  	/do/admin/accountHistory
+11/10/2014 07:25:49	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/home
+11/10/2014 07:25:55	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/profile
+11/10/2014 07:26:04	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/accountOverview
+11/10/2014 07:26:04	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	GET   	/do/admin/accountHistory
+11/10/2014 07:42:01	127.0.0.1	4D3C85C04C04D1BADF2B31C779B5ACF2	admin	LOGOUT	
